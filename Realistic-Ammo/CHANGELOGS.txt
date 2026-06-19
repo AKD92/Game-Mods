@@ -1,0 +1,6 @@
+2026-Jun-15
+* Weapons: Increased recharge rate and capacity of Delta Cannon
+	   Increased recharge rate and capacity of Heavy Cannon
+	   Increased recharge rate and capacity of Figher Turret
+	   Created new ThArcher (based on Archer SRM) missile definition with increased attachments (mount points), resulting more Archer missiles per aircraft
+	   Modified Alliance fighter crafts to use ThArcher instead of Archer

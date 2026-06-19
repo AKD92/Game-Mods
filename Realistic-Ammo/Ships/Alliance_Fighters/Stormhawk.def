@@ -82,8 +82,8 @@ weapon:     {
    }
 
 hardpoint:     {
-   type:    "Javelin",
-   type:    "Vector",
+   type:    "JavelinV2",
+   type:    "VectorV2",
    abrv:    "STA-1",
    muzzle:  (-78, -10, -120),
 
@@ -93,10 +93,10 @@ hardpoint:     {
 }
 
 hardpoint:     {
-   type:    "Javelin",
-   type:    "Vector",
-   type:    "Harpoon",
-   type:    "Hammer",
+   type:    "JavelinV2",
+   type:    "VectorV2",
+   type:    "HarpoonV2",
+   type:    "HammerV2",
    abrv:    "STA-2",
    muzzle:  (-50, -5, -110),
 
@@ -106,11 +106,11 @@ hardpoint:     {
 }
 
 hardpoint:     {
-   type:    "Javelin",
-   type:    "Vector",
-   type:    "Harpoon",
-   type:    "Hammer",
-   type:    "Rockets",
+   type:    "JavelinV2",
+   type:    "VectorV2",
+   type:    "HarpoonV2",
+   type:    "HammerV2",
+   type:    "RocketsV2",
    abrv:    "STA-3",
    muzzle:  (-16, -18, -110),
 
@@ -120,11 +120,11 @@ hardpoint:     {
 }
 
 hardpoint:     {
-   type:    "Javelin",
-   type:    "Vector",
-   type:    "Harpoon",
-   type:    "Hammer",
-   type:    "Rockets",
+   type:    "JavelinV2",
+   type:    "VectorV2",
+   type:    "HarpoonV2",
+   type:    "HammerV2",
+   type:    "RocketsV2",
    type:    "Recon Pod",
    abrv:    "STA-4",
    muzzle:  ( 16, -18, -110),
@@ -135,10 +135,10 @@ hardpoint:     {
 }
 
 hardpoint:     {
-   type:    "Javelin",
-   type:    "Vector",
-   type:    "Harpoon",
-   type:    "Hammer",
+   type:    "JavelinV2",
+   type:    "VectorV2",
+   type:    "HarpoonV2",
+   type:    "HammerV2",
    abrv:    "STA-5",
    muzzle:  ( 50, -5, -110),
 
@@ -148,8 +148,8 @@ hardpoint:     {
 }
 
 hardpoint:     {
-   type:    "Javelin",
-   type:    "Vector",
+   type:    "JavelinV2",
+   type:    "VectorV2",
    abrv:    "STA-6",
    muzzle:  ( 78, -10, -120),
 
@@ -281,7 +281,7 @@ loadout: { name: "ACM Medium Range", stations: ( 0,  1,  1,  1,  1,  0) }
 loadout: { name: "Ground Strike",    stations: ( 0,  3,  3,  3,  3,  0) }
 loadout: { name: "Ship Strike",      stations: ( 0,  1,  2,  2,  1,  0) }
 loadout: { name: "Hvy Ship Strike",  stations: ( 0,  2,  2,  2,  2,  0) }
-loadout: { name: "Rockets",          stations: ( 0,  1,  4,  4,  1,  0) }
+loadout: { name: "RocketsV2",          stations: ( 0,  1,  4,  4,  1,  0) }
 loadout: { name: "Scout/Recon",      stations: (-1,  0, -1,  5,  0, -1) }
 
 death_spiral: {
