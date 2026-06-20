@@ -665,7 +665,7 @@ missile: {
    name:             RocketsV2
    group:            RKS
    beauty:           "Rocket_Beauty.pcx"
-   description:      "Each fighter-based ROCKET V2 POD holds twelve guided submunitions that may be employed against a wide variety of spaceborne and ground-based targets.  Rockets are fired from the pod in salvos of four each time press the firing stud.  Rockets are most effective against stationary or slow moving targets, and are often used in mine-sweeping missions."
+   description:      "Each fighter-based ROCKET V2 POD holds eighty guided submunitions that may be employed against a wide variety of spaceborne and ground-based targets.  Rockets are fired from the pod in salvos of four each time press the firing stud.  Rockets are most effective against stationary or slow moving targets, and are often used in mine-sweeping missions."
    target_type:      0xffffffff
    value:            2
    ammo:             80
