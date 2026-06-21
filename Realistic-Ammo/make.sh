@@ -11,7 +11,9 @@ cd "$SOURCE_DIR" || { echo "Error: Cannot enter $SOURCE_DIR"; exit 1; }
 mkdir -p "$MOD_DIRPATH"
 
 rm -f "$MOD_FILENAME"
+echo "Old mod file deleted"
 wine "$COMPILER_PATH" "$MOD_FILENAME" -mak
+echo "Mod file generated"
 
 if [ -f "$MOD_FILENAME" ]; then
 	cp -f "$MOD_FILENAME" "$MOD_DIRPATH/"
