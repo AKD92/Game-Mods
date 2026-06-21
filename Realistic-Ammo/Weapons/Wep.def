@@ -635,6 +635,14 @@ missile: {
    attachment:       ( 1, 0, 0)
 
    attachment:       ( 0,-1, 0)
+   attachment:       (-1, 0, 0)
+
+   attachment:       ( 1, 0, 0)
+
+   attachment:       ( 0,-1, 0)
+   attachment:       (-1, 0, 0)
+
+   attachment:       ( 1, 0, 0)
 
 
 
@@ -1270,7 +1278,7 @@ missile: {
 
    value:            3
 
-   ammo:             12
+   ammo:             10
 
    recharge_rate:    10
 
@@ -1363,8 +1371,6 @@ missile: {
    sound_max_dist:   15e3
 
 }
-
-
 
 
 
