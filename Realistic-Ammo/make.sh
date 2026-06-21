@@ -10,10 +10,11 @@ MOD_DIRPATH="$GAME_ROOT_DIR/Mods"
 cd "$SOURCE_DIR" || { echo "Error: Cannot enter $SOURCE_DIR"; exit 1; }
 mkdir -p "$MOD_DIRPATH"
 
+rm -f "$MOD_FILENAME"
 wine "$COMPILER_PATH" "$MOD_FILENAME" -mak
 
 if [ -f "$MOD_FILENAME" ]; then
-	cp "$MOD_FILENAME" "$MOD_DIRPATH/"
+	cp -f "$MOD_FILENAME" "$MOD_DIRPATH/"
 	echo "Success: $MOD_FILENAME copied to $MOD_DIRPATH"
 else
 	echo "Error: Expected file $MOD_FILENAME was not found in $SOURCE_DIR"

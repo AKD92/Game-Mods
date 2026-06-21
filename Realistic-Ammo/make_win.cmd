@@ -1,4 +1,6 @@
 
+@echo off
+cd /d "%~dp0"
 del Realistic-Ammo.dat
 echo "file deleted"
 "../../SH/Starshatter_TGS/datafile.exe" Realistic-Ammo.dat -mak
