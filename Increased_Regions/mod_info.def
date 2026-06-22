@@ -1,0 +1,8 @@
+MOD_INFO
+name: "Sectors Refind"
+version: "0.0.1"
+desc: "Added visitable sectors around some plantes and moons,\n
+for the vanilla systems, which did not have sectors around some of their planets.\n"
+
+copyright: "View Readme"
+
