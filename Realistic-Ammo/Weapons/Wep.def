@@ -2037,7 +2037,7 @@ drone: {
    description:      "The starship SENSOR DRONE is a multi-frequency active sensor probe that may be used to detect enemy ships far beyond the range of onboard ship sensors.  As long as it is active, the Sensor Drone will detect any contact that comes within 50 km of its position.  Of course, the Sensor Drone does no damage to enemy targets."
    target_type:      0x00
    value:            1
-   ammo:             4
+   ammo:             120
    recharge_rate:    1
    refire_delay:     10
    damage:           0
