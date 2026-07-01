@@ -66,9 +66,9 @@ primary: {
    description:      "The HEAVY ENERGY CANNON has recently been fitted on the F/A-38D Thunderbolt series of attack fighters.  The Heavy is a slimmed down version of the retired 'Chain Lightning' cannon used on early model LCAs for mine sweeping and antiship warfare.  This is the first time a weapon of this caliber has been fitted on a single seat fighter.  The Heavy is too slow and unweildy to be effective against maneuvering fighters, but the high damage potential makes this weapon a first-rate ship killer."
    target_type:      0x000fffff
    value:            1
-   recharge_rate:    120
+   recharge_rate:    150
    refire_delay:     0.30
-   capacity:         600
+   capacity:         1000
    charge:           10
    min_charge:       10
    damage:           15
