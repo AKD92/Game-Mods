@@ -4,7 +4,7 @@ SCRIPT_DIR=$(dirname "$(realpath "$0")")
 SOURCE_DIR="$SCRIPT_DIR"
 GAME_ROOT_DIR="$HOME/Games/Starshatter-TGS-HLP"
 COMPILER_PATH="$GAME_ROOT_DIR/datafile.exe"
-MOD_FILENAME="Sectors-Refind.dat"
+MOD_FILENAME="Sectors-Refined.dat"
 MOD_DIRPATH="$GAME_ROOT_DIR/Mods"
 
 cd "$SOURCE_DIR" || { echo "Error: Cannot enter $SOURCE_DIR"; exit 1; }
