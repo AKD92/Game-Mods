@@ -8,16 +8,18 @@ MOD_FILENAME="Sectors-Refined.dat"
 MOD_DIRPATH="$GAME_ROOT_DIR/Mods"
 
 cd "$SOURCE_DIR" || { echo "Error: Cannot enter $SOURCE_DIR"; exit 1; }
-mkdir -p "$MOD_DIRPATH"
 
-rm -f "$MOD_FILENAME"
-echo "Old mod file deleted"
+if [ -f "$MOD_FILENAME" ]; then
+	rm -f "$MOD_FILENAME"
+	echo "Old mod file deleted"
+fi
+
+mkdir -p "$MOD_DIRPATH"
 wine "$COMPILER_PATH" "$MOD_FILENAME" -mak
-echo "Mod file generated"
 
 if [ -f "$MOD_FILENAME" ]; then
 	cp -f "$MOD_FILENAME" "$MOD_DIRPATH/"
-	echo "Success: $MOD_FILENAME copied to $MOD_DIRPATH"
+	echo "Success: Generated $MOD_FILENAME, copied to $MOD_DIRPATH"
 else
 	echo "Error: Expected file $MOD_FILENAME was not found in $SOURCE_DIR"
 	exit 1
